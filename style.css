@@ -1,0 +1,58 @@
+*{
+    background-color: #a6ffe6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    display: flex;
+}
+.container section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    margin-top: 12.7px;
+}
+.container section .content{
+    max-width: 720px;
+    max-height: 720px;
+}
+body {
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 500px;
+    padding-right: 100px;
+    text-align: center;
+}
+a:hover{
+    opacity: 40%;
+}
+
+#aboutme{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 140px;
+    margin-top: 20px;
+    background-color: black;
+    color: #a6ffe6;
+    border-radius: 10px;
+    border: none;
+}
+#insta{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 132px;
+    margin-top: 20px;
+    background-color: black;
+    color: #a6ffe6;
+    border-radius: 10px;
+    border: none;
+}
